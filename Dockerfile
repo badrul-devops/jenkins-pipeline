@@ -22,7 +22,7 @@ COPY target/jb-hello-world-maven-0.2.0.jar /app/
 WORKDIR /app
 
 # Expose the application port
-EXPOSE 8080
+EXPOSE 8000
 
 # Run the application
 CMD ["java", "-jar", "jb-hello-world-maven-0.2.0.jar"]
